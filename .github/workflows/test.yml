@@ -20,6 +20,5 @@ jobs:
       - name: Run tests
         run: |
           git submodule sync
-          chmod +x runAllTests.sh
+          chmod +x runAllTests.sh runTest.sh
           ./runAllTests.sh
-          
