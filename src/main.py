@@ -3,12 +3,8 @@ from functools import lru_cache
 
 @lru_cache
 def fib(n: int) -> int:
-    assert n >= 0
-    if n == 0:
-        return 0
-    if n == 1:
-        return 1
-    return fib(n-1) + fib(n-2)
+    # TODO: implement your method here
+    return 0
 
 def main():
     parser = ArgumentParser(description='Fibonacci number generator.')
