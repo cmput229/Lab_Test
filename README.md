@@ -2,6 +2,11 @@
 Instructions for a real lab would be here.
 
 # How to run program with test input
+Run all at the same time:
 ```sh
-python3 src/main.py $(cat test/file1.txt)
+./runAllTests.sh
+```
+Run only one at a time:
+```sh
+./runTest.sh tests/public1.in tests/public1.out
 ```
